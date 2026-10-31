@@ -9,14 +9,12 @@ var ia: Int64 = 1
 
 while(true){                                                                             //将输入的数字存入数组中
 
-    println("请输入数字（第${ia}个,输入非数字后结束):")
+    print("请输入数字（第${ia}个,输入非数字后结束):")
     let num = getStdIn().readln().getOrThrow().trimAscii()
     match(Int64.tryParse(num)){
 
         case Some(n) => 
-            if(n == 0){
-                break
-                }
+
         number.add(n)
 
         ia = ia + 1

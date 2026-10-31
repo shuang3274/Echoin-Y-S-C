@@ -67,8 +67,8 @@ while(id < number.size - 1){                                                    
 
 println("\n您输入的数中第二大的为:${nextmax}")
 
-     println("\n输入回车后关闭界面")
-     getStdIn().readln().getOrThrow()
+println("\n输入回车后关闭界面")
+getStdIn().readln().getOrThrow()
 
-    return 0
+return 0
 }
