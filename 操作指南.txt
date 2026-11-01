@@ -1,8 +1,24 @@
-1.	打开cmd：					按win + R
+1.打开cmd：按win + R
 
-2.	跳转到工作区文件夹：			cd /d "你的本地工作区文件夹地址"
+2.初使用：第一步：接受邀请：打开注册github用的邮箱，同意邀请
+ 	       第二步：检查并安装 Git：按 Win + R 键
+						    输入 cmd 回车
+						    在CMD里输入 git --version。如果有版本号，说明已安装
+			   git官网 git-scm.com（安装时一路点击“Next”即可，除了其中有一面Choosing the default editorusedby Git需要更改为Visual Studio Code as Git's default editor）
+	       第三步：登录git：打开 CMD
+					输入git config --global user.name "你的GitHub用户名"
+					      git config --global user.email "你的GitHub绑定邮箱"
+	       第四步：把代码下载到你的电脑上（克隆）：在你的电脑上找一个好记的地方打开 CMD
+									      git clone https://github.com/shuang3274/Echoin-Y-S-C.git
+									      授权弹窗：Sign in with your browser（通过浏览器登录）
+									      下载完成后，你会得到一个叫 Echoin-Y-S-C 的文件夹（以后的文件直接在这里写，在进行日常git操作后会同步到仓库里）
+	       第五步：测试提交：打开CMD，执行日常git操作，看看github仓库里有没有新增代码
 
-3.git操作：同步仓库代码：			git pull
-  		  把改动打包：				git add .
-		  备注（建议写，也可以空）：git commit -m "说明"
-		  同步到仓库：				git push
+3.日常git操作：跳转到工作区文件夹：cd /d "你的本地工作区文件夹地址"
+		      同步仓库代码：git pull
+  		      把改动打包：git add .
+		      备注（建议写，但至少要空格）：git commit -m "说明"
+		      同步到仓库： git push
+
+
+有问题叫我，我来帮忙
