@@ -17,8 +17,8 @@ main(): Int64 {
             .replace("，", ",")
             .replace("(", "")
             .replace(")", "")
-            .trimAscii()
 
+            .trimAscii( )
         let parts = cleaned.split(",")                                         //以逗号为界分割
         if (parts.size != 2 ) {
             println("格式错误：需要 (a,b)形式,结束输入")
