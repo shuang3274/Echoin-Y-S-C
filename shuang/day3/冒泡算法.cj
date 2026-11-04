@@ -1,4 +1,5 @@
-import std.collection.*import std.env.* 
+import std.collection.*
+import std.env.* 
 import std.convert.*
 
 main(): Int64 {
